@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+    color: #24211c;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+}
+
+.iconefolha{
+    width: 25px;
+    margin-left: 20px; 
+    cursor: pointer;         
+}
+
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:#6b7986;
+}
+
+img{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+main{
+    background-color: #f7f5f5;
+    width: 100%;
+    padding: 100px 150px;
+    /*position: relative;/*/
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 20px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: #a3d446;
+}
+
+h2{
+    font-size: 36px;
+    padding: 10px;
+}
+
+h2:hover{
+    color: #6b7986;
+    cursor: pointer;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.principal{
+    width: 100%;
+    display: flex;
+    border: 5px solid transparent;
+    border-radius: 5px;
+}
+
+img.principal{
+    width: 25%;
+    display: inline-block;
+    margin: 10px 30px 20px;
+    cursor: pointer;
+}
+
+.conteudoprincipal{
+    display: inline-block;
+    padding: 50px 20px;
+    width: 70%;
+    text-align: left;
+}
+
+.ver{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.ver:hover{
+    color: #a3d446;
+}
+
+.elementPost{
+    width: 25%;
+    margin: 40px 46px;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.legenda{
+    padding: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.legenda:hover{
+    color: #6b7986 ;
+}
+
+img.post{
+    width: 100%;
+    height: 380px;
+}
+
+.element_fourth{
+    display: inline-flex;
+    position: relative;
+    margin: 20px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+   }
+
+.sobrenos, .vejamais{
+    text-align: left;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.sobrenos:hover, .vejamais:hover{
+    color: #6b7986;
+}
+
+img.four{
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+}
+
+img.chat{
+    width: 80px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    background-color: transparent;
+}
+
+img.chat:hover{
+    width: 100px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 20px;
+}
